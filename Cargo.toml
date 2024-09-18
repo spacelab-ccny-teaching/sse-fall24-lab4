@@ -1,0 +1,13 @@
+[package]
+name = "sse-rust-crypto"
+version = "0.1.0"
+edition = "2021"
+# Replace your group's names here
+authors = ["Partner 1", "Partner 2"]
+
+# You may not change this list of dependencies.
+[dependencies]
+x25519-dalek = { version = "2.0.0", features = ["getrandom", "static_secrets"] }
+sha2 = "0.10.8"
+aes-gcm = "0.10.3"
+base64 = "0.21.7"
